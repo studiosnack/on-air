@@ -1,3 +1,20 @@
+# On Air
+
+This is a very simple calendar-schedule webpage, mostly designed to work on a chromebook, but it will work anywhere that the intl apis work.
+
+![](./example.png)
+
+## how do you update it?
+
+- rename `public/schedule.toml.example` to `public/schedule.toml`
+- update the links however you want, notice that they're keyed indirectly in the individual events
+- update the events: the main thing here is that you change the start time and the duration for each and tag what days it takes place
+- when you're done, the schedule will show you today's schedule as well as the current event plus or minus a minute or two.
+- this doesn't yet handle the scenario where two links show up for one event... soon?
+- there are probably bugs, but probably fine for now?
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

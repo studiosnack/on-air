@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# The Real schedule
+/public/schedule.toml
+
 # production
 /build
 
