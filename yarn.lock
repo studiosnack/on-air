@@ -1127,6 +1127,11 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@iarna/toml@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-3.0.0.tgz#ccde5292fe9d348bbe93fe90d579fc442b72b0b3"
+  integrity sha512-td6ZUkz2oS3VeleBcN+m//Q6HlCFCPrnI0FZhrt/h4XqLEdOyYp2u21nd8MdsR+WJy5r9PTDaHTDDfhf4H4l6Q==
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"

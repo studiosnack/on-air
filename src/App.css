@@ -1,38 +1,65 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: row;
+}
+.active {
+  outline: 1px solid red;
+}
+
+.todayschedule {
+  width: 200px;
+}
+.todayschedule h2,
+.todayschedule h3,
+.todayschedule p {
+  font-size: 14px;
+  margin: 2px;
+}
+.scheduleblock {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+}
+.todayschedule > * {
+  display: flex;
+  padding: 4px;
+  margin-bottom: 10px;
+  justify-content: stretch;
+  flex: 1;
+  text-decoration: none;
+  color: black;
+}
+.todayschedule > *:nth-child(2n + 1) {
+  backdrop-filter: grayscale(50%);
+}
+
+.blue.blue {
+  background-color: lightskyblue;
+}
+.yellow.yellow {
+  background-color: rgb(233, 235, 149) ;
+}
+.todayschedule .inactive {
+  backdrop-filter: opacity(30%);
+}
+
+.spotlight {
+  display: flex;
+  padding-left: 40px;
+  flex-flow: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex: 1;
 }
-
-.App-link {
-  color: #61dafb;
+.spotlight .eventlink {
+  border: 2px solid #ddd;
+  width: 500px;
+  display: flex;
+  text-decoration: none;
+  color: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.spotlight .scheduleblock {
+    padding: 16px;
+}
+.spotlight h2, .spotlight h3, .spotlight p {
+  margin: 8px;
 }

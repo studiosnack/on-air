@@ -1,0 +1,117 @@
+
+
+[urls]
+teacher_a = "https://zoom.us/j/abcd?pwd=12345"
+teacher_b = "https://zoom.us/j/abcd?pwd=12345"
+assembly = "https://zoom.us/j/defg?pwd=67890"
+
+
+[[event]]
+name = "Assembly"
+description = ""
+days = ["m"]
+time_start = "07:45:00.0"
+duration = 15
+url = "assembly"
+
+[[event]]
+name = "Morning Routine"
+description = "Teacher A"
+color = "blue"
+url = "teacher_a"
+time_start = "08:00:00.0"
+duration = 20
+days = ["m", "t", "w", "r", "f"]
+
+[[event]]
+name = "ELA"
+description = "Teacher A"
+color = "blue"
+url = "teacher_a"
+time_start = "08:30:00.0"
+duration = 20
+days = ["m", "t", "w", "r", "f"]
+
+[[event]]
+name = "Math"
+description = "Teacher A"
+color = "blue"
+url = "teacher_a"
+time_start = "09:00:00.0"
+duration = 20
+days = ["m", "t", "w", "r", "f"]
+
+[[event]]
+name = "Snack/Break"
+description = ""
+color = "white"
+url = ""
+time_start = "09:20:00.0"
+duration = 20
+days = ["m", "t", "w", "r", "f"]
+
+[[event]]
+name = "Social Studies"
+description = "Teacher B"
+color = "yellow"
+url = "teacher_b"
+time_start = "09:40:00.0"
+duration = 20
+days = ["m", "t", "w", "r", "f"]
+
+[[event]]
+name = "Science or Culture"
+description = "Teacher B"
+color = "yellow"
+url = "teacher_b"
+time_start = "10:10:00.0"
+duration = 20
+days = ["m", "t", "w", "r", "f"]
+
+[[event]]
+name = "Small Group"
+description = "Teacher B"
+color = "yellow"
+url = "teacher_b"
+time_start = "10:45:00.0"
+duration = 15
+days = ["t", "r"]
+
+[[event]]
+name = "Small Group"
+description = "Teacher A"
+color = "blue"
+url = "teacher_a"
+time_start = "10:45:00.0"
+duration = 15
+days = ["m", "w"]
+
+[[event]]
+name = "Small Group Make Up Day"
+color = "white"
+days = ["f"]
+time_start = "10:45:00.0"
+duration = 15
+  [[event.urls]]
+  name = "Teacher A"
+  url = "teacher_a"
+
+  [[event.urls]]
+  name = "Teacher B"
+  url = "teacher_a"
+
+[[event]]
+name = "Office Hour"
+description = ""
+color = "white"
+days = ["m", "t", "w", "r", "f"]
+time_start = "11:30:00"
+duration = 60
+
+  [[event.urls]]
+  name = "Teacher A"
+  url = "teacher_a"
+
+  [[event.urls]]
+  name = "Teacher B"
+  url = "teacher_a"
